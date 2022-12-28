@@ -65,7 +65,7 @@
         </div>
         <div class="w-full px-4 md:w-1/2 ">
                     <div class=" -mt-24 pl-24  lg:right-0">
-                        <img src="src/assets/blob1.png" alt="Logo" class="absolute">
+                        <img :src="('blob1.png')"  alt="Logo" class="absolute">
                     
                     </div>
                 </div>
