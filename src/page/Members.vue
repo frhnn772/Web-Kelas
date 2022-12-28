@@ -44,7 +44,6 @@
         </div>
       </div>
     </div>
-    <img src="shorturl.at/oqDI7" alt="">
   </section>
 </template>
 
