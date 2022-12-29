@@ -21,9 +21,3 @@ body {
 .active-page {
     @apply text-primary bg-[#202020] 
 }
-
-@media not all and (min-width: 1280px) { 
-.web-version{
-    @apply h-screen bg-red-500
-}
- }
