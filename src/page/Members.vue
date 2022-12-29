@@ -1,9 +1,9 @@
 <template>
   <Navbar />
   <section
-    class="bg-slate-100 transition duration-100 ease-in-out"
+    class="bg-slate-100 transition duration-100 ease-in-out "
   >
-    <div class="container pt-24">
+    <div class="container pt-24 ">
       <h1>Members/<b>Kelas</b></h1>
       <div class="">
         <div class="grid grid-cols-3 gap-4 pt-4">
