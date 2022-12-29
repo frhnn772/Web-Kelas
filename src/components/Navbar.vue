@@ -28,58 +28,24 @@
             >
           </div>
           <div class="flex items-center px-4">
-            <button
-              id="hamburger"
-              name="hamburger"
-              type="button"
-              class="block absolute right-4 lg:hidden"
-            >
-              <span
-                class="
-                  hamburger-line
-                  origin-top-left
-                  transition
-                  duration-200
-                  ease-in-out
-                "
-              ></span>
-              <span
-                class="hamburger-line transition duration-200 ease-in-out"
-              ></span>
-              <span
-                class="
-                  hamburger-line
-                  origin-bottom-left
-                  transition
-                  duration-200
-                  ease-in-out
-                "
-              ></span>
-            </button>
+            
             <nav
               id="nav-menu"
               class="
-                hidden
-                absolute
+               
                 bg-white
-                dark:bg-dark
-                lg:dark:bg-transparent
-                dark:shadow-slate-700
                 py-1
                 shadow-lg
                 rounded-lg
-                max-w-[250px]
                 w-full
                 top-full
-                lg:block
-                lg:static
-                lg:bg-transparent
-                lg:max-w-full
-                lg:shadow-none
-                lg:rounded-none
+                block
+                static
+                bg-transparent
+                max-w-full
               "
             >
-              <ul class="block lg:flex">
+              <ul class=" flex">
                 <li class="group">
                   <router-link
                   :to="{name: 'page.home'}"
