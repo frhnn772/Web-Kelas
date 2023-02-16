@@ -1,5 +1,5 @@
 <template>
-  <Navbar />
+  <navbar/>
   <section class="h-screen bg-slate-100 transition duration-100 ease-in-out">
     <div class="container pt-48">
       <div class="box-border flex flex-wrap">
@@ -136,7 +136,8 @@
           </div>
         </div>
         <div class="w-full px-4 md:w-1/2">
-          <MapComponents/>
+          <div v-if="isLoading"><map-sekeleton/></div>
+          <div v-else><map-components/></div>
         </div>
       </div>
     </div>
@@ -146,7 +147,19 @@
 import MapComponents from '../components/MapComponents.vue';
 import Navbar from "../components/Navbar.vue";
 import MapSekeleton from '../components/sekeleton/MapSekeleton.vue';
+
 export default {
   components: { Navbar, MapComponents,MapSekeleton },
+  data(){
+    return {
+      isLoading: true
+    }
+  },
+  mounted(){
+    this.isLoading = true;
+    setTimeout(() => {
+      this.isLoading = false;
+  },2000);
+  }
 };
 </script>

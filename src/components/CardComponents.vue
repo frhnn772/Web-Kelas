@@ -1,5 +1,5 @@
 <template>
-  <div class="px-6">
+  <div class="px-6" ref="tiltRef">
             <div
               class="
                 bg-white
@@ -18,7 +18,8 @@
                 alt=""
                 class="w-full h-[280px]"
               />
-              <div class="py-4 px-8">
+              <div class="py-4 px-8"  >
+                
                 <h1
                   class="
                     mb-3
@@ -33,10 +34,11 @@
                 >
                   {{ props.members.nama }}
                 </h1>
-                <a
+                <a 
                   :href= "url.ig + props.members.ig" 
                   target="_blank"
                   class="
+                  parallax
                   hover:-translate-y-0.5
                   hover:-translate-x-0.5
                   
@@ -81,10 +83,30 @@ import { ref } from "vue";
 const url = ref({
     ig: "https://instagram.com/"
 })
-const props = defineProps(['members'])
+const props = defineProps(['members']);
 
+
+</script>
+<script>
+import VanillaTilt from 'vanilla-tilt';
+export default {
+    mounted(){
+        VanillaTilt.init(this.$refs.tiltRef,{
+    scale: 1.03,
+    speed: 500,
+    max: 5,
+    perspective: 1000,
+    transition: true,
+    parallax: true
+        });
+    },
+}
 </script>
 
 <style>
-
+.parallax{
+  transform-style: preserve-3d;
+  transform: perspective(20px);
+  transform: translateZ(50px);
+}
 </style>

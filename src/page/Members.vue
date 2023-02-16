@@ -1,5 +1,5 @@
 <template>
-  <Navbar />
+  <navbar/>
   <section
     class="bg-slate-100 transition duration-100 ease-in-out "
   >
@@ -33,7 +33,7 @@
           <CardComponents :members="{ nama: 'Regi Wiyanda', ig:'regiwynd2',foto:'members/users-24.jpg'}"/>
           <CardComponents :members="{ nama: 'Rendi', ig:'rendi_dimor',foto:'members/users-25.jpg'}"/>
           <CardComponents :members="{ nama: 'Romy Andrian', ig:'romyadrn_',foto:'members/users-26.jpg'}"/>
-          <CardComponents :members="{ nama: 'Shalwat Nabila Arrafi', ig:'elfi_andrew_78',foto:'members/users-27.jpg'}"/>
+          <CardComponents :members="{ nama: 'Shalawat Nabila Arrafi', ig:'elfi_andrew_78',foto:'members/users-27.jpg'}"/>
           <CardComponents :members="{ nama: 'Teddy Ramadhan', ig:'tdy_ramadhan',foto:'members/users-none.jpg'}"/>
           <CardComponents :members="{ nama: 'Tinta Thania Nadhilah Putri', ig:'tinthnia',foto:'members/users-29.jpg'}"/>
           <CardComponents :members="{ nama: 'Wahyu', ig:'binaramerta._',foto:'members/users-none.jpg'}"/>

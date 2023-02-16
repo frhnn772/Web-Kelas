@@ -1,7 +1,6 @@
 <template>
   <div id="preloader"></div>
-  <Navbar />
-
+  <navbar/>
   <section
     class="h-screen bg-slate-100 transition duration-100 ease-in-out"
   >

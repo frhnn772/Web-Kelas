@@ -8,6 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "vanilla-tilt": "^1.8.0",
     "vue": "^3.2.45",
     "vue-router": "^4.1.6"
   },
