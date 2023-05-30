@@ -1,0 +1,153 @@
+{
+    "message": "Video Kenangan",
+    "data": [
+        {
+            "moments": [
+                {
+                    "id_foto":1,
+                    "ket":"Fotbar bersama guru magang dihari Senin",
+                    "url": "foto2/moments/foto20.jpg"
+                },
+                {
+                    "id_foto":2,
+                    "ket":"Selesai UKK di hari kedua dan fotbar bersama Buk Indrawati dan Pak Teddy Roberto",
+                    "url": "foto2/moments/foto3.jpg"
+                },
+                {
+                    "id_foto":3,
+                    "ket":"-",
+                    "url": "foto2/moments/foto14.jpg"
+                },
+                {
+                    "id_foto":4,
+                    "ket":"-",
+                    "url": "foto2/moments/foto2.jpg"
+                },
+                {
+                    "id_foto":5,
+                    "ket":"-",
+                    "url": "foto2/moments/foto21.jpg"
+                },
+                {
+                    "id_foto":6,
+                    "ket":"Hari Guru bersama wali kelas Buk Indrawati",
+                    "url": "foto2/moments/foto23.jpg"
+                },
+                {
+                    "id_foto":7,
+                    "ket":"Bukber Kelas di bulan Ramadhan",
+                    "url": "foto2/moments/foto26.jpg"
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "id_foto":1,
+                    "ket":"Pelepasan Angkatan 14 siswa kelas 12 RPL 1",
+                    "url":"foto2/events/foto18.jpg"
+                },
+                {
+                    "id_foto":2,
+                    "ket":"-",
+                    "url":"foto2/events/foto17.jpg"
+                },
+                {
+                    "id_foto":3,
+                    "ket":"Keluarga Berencana Wkwkwk",
+                    "url":"foto2/events/foto16.jpg"
+                },
+                {
+                    "id_foto":4,
+                    "ket":"-",
+                    "url":"foto2/events/foto8.jpg"
+                },
+                {
+                    "id_foto":5,
+                    "ket":"-",
+                    "url":"foto2/events/foto9.jpg"
+                },
+                {
+                    "id_foto":6,
+                    "ket":"-",
+                    "url":"foto2/events/foto15.jpg"
+                },
+                {
+                    "id_foto":7,
+                    "ket":"-",
+                    "url":"foto2/events/foto27.jpg"
+                },
+                {
+                    "id_foto":8,
+                    "ket":"-",
+                    "url":"foto2/events/foto10.jpg"
+                },
+                {
+                    "id_foto":9,
+                    "ket":"Foto per-kelas seragam Osis",
+                    "url":"foto2/events/foto1.jpg"
+                },
+                {
+                    "id_foto":10,
+                    "ket":"Foto per-kelas atasan hitam ala-ala mafia Wkwkwk",
+                    "url":"foto2/events/foto4.jpg"
+                },
+                {
+                    "id_foto":11,
+                    "ket":"-",
+                    "url":"foto2/events/foto7.jpg"
+                },
+                {
+                    "id_foto":12,
+                    "ket":"-",
+                    "url":"foto2/events/foto19.jpg"
+                },
+                {
+                    "id_foto":13,
+                    "ket":"-",
+                    "url":"foto2/events/foto13.jpg"
+                },
+                {
+                    "id_foto":14,
+                    "ket":"-",
+                    "url":"foto2/events/foto25.jpg"
+                }
+            ]
+        },
+        {
+            "randoms": [
+                {
+                    "id_foto":1,
+                    "ket":"-",
+                    "url":"foto2/randoms/foto12.jpg"
+                },
+                {
+                    "id_foto":2,
+                    "ket":"-",
+                    "url":"foto2/randoms/foto5.jpg"
+                },
+                {
+                    "id_foto":3,
+                    "ket":"-",
+                    "url":"foto2/randoms/foto22.jpg"
+                },
+                {
+                    "id_foto":4,
+                    "ket":"Jamkos nobar bola dulu gaa sihh",
+                    "url":"foto2/randoms/foto6.jpg"
+                },
+                {
+                    "id_foto":5,
+                    "ket":"-",
+                    "url":"foto2/randoms/foto24.jpg"
+                },
+                {
+                    "id_foto":6,
+                    "ket":"-",
+                    "url":"foto2/randoms/foto11.jpg"
+                }
+                
+            ]
+        }
+    ]
+}

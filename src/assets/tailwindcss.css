@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Blinker', sans-serif;
+    user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+
+}
+body::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+
+.hide-scroll-bar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.hide-scroll-bar::-webkit-scrollbar {
+  display: none;
+}
+
+
+.navbar-fixed {
+    @apply fixed z-[9999] bg-white bg-opacity-20 shadow-lg backdrop-blur-sm ;
+}
+
+.hamburger-line {
+  @apply w-[30px] h-[2px] my-2 block bg-primary;
+}
+
+.hamburger-active > span:nth-child(1) {
+  @apply rotate-45;
+}
+
+.hamburger-active > span:nth-child(2) {
+  @apply scale-0;
+}
+
+.hamburger-active > span:nth-child(3) {
+  @apply -rotate-45;
+}
+.active-page {
+  @apply hover:text-slate-100  text-primary bg-[#222222] ;
+}
