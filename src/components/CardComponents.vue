@@ -16,6 +16,7 @@
           {{ siswa.nama_siswa }}
         </h1>
         <a
+          :href="url.ig +  siswa.username_ig"
           target="_blank"
           class="parallax hover:-translate-y-0.5 hover:-translate-x-0.5 text-white flex items-center justify-center bg-[#24292F] hover:bg-[#24292F]/90 focus:ring-2 focus:outline-none focus:ring-primary font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
         >
@@ -37,7 +38,14 @@
   </div>
 </template>
 <script>
+import { ref } from 'vue';
 export default {
   props: ["dataSiswa"],
+  setup() {
+    const url = ref({
+    ig: "https://instagram.com/"
+})
+return {url}
+  }
 };
 </script>
