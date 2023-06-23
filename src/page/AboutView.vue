@@ -2,7 +2,7 @@
   <section class="h-screen bg-slate-100">
     <div class="container pt-36">
       <div class="box-border flex flex-wrap md:flex-row">
-        <div class="w-full md:w-1/2 p-4 rounded-3xl"  data-aos="fade-left">
+        <div class="w-full md:w-1/2 p-4 rounded-3xl"  data-aos="fade-right">
           <div class="w-full self-center px-4 pb-4">
             <h1 class="text-base font-semibold text-dark md:text-xl mt-3">
               Haloo Guys,
