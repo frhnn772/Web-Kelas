@@ -1,6 +1,6 @@
 <template>
   <header
-    class="bg-transparent top-0 left-0 w-full items-center fixed shadow-lg backdrop-blur-sm z-10"
+    class="bg-transparent top-0 left-0 w-full items-center fixed shadow-lg backdrop-blur-sm z-10" data-aos="fade-down" 
   >
     <div class="px-[52px] items-center justify-center">
       <div class="my-4 px-4 rounded-full ring-primary ring-2 bg-secondary">

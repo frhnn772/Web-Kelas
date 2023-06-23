@@ -1,7 +1,7 @@
 <template>
   <div class="lg:ml-24 ring-2 ring-red-500 bg-gray-400 rounded-xl">
     <div class="animate-pulse">
-      <div class="h-80 flex relative">
+      <div class="h-72 flex relative">
       <div class="h-32 w-52 mx-3 my-3 bg-gray-300 rounded-sm absolute z-50 shadow-md">
         <div class="h-3 w-44 mx-3 my-3 bg-gray-600"></div>
         <div class="h-14 w-44 mx-3 my-3 bg-gray-400"></div>

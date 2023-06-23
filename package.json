@@ -8,6 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "aos": "^3.0.0-beta.6",
     "vue": "^3.3.2",
     "vue-router": "^4.2.0"
   },

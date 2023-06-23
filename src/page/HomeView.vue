@@ -1,10 +1,10 @@
 <template>
   <section class="h-screen bg-slate-100">
-    <div class="container">
+    <div class="container border">
       <div class="box-border flex flex-wrap lg:flex-row pt-28">
-        <div class="lg:w-1/2 xl:mt-20 xl:px-4">
+        <div class="lg:w-1/2 xl:mt-16 xl:px-4">
           <div
-            class="drop-shadow-lg w-full px-5 py-4 bg-gradient-to-br from-primary to-[#FE6B04] rounded-3xl rounded-br-[120px]"
+            class="drop-shadow-lg w-full px-5 py-4 bg-gradient-to-br from-primary to-[#FE6B04] rounded-3xl rounded-br-[120px]" data-aos="fade-right" data-aos-delay="300"
           >
             <div class="w-full self-center mb-4">
               <h1
@@ -28,18 +28,18 @@
           </div>
         </div>
         <div class="w-full px-4 lg:w-1/2">
-          <div class="md:pl-20 lg:-mt-7 lg:pl-24 lg:right-0">
-            <div class="relative mt-2 lg:mt-9 lg:right-0">
+          <div class="md:pl-20 lg:-mt-7 lg:pl-24 lg:right-0" data-aos="fade-left"  data-aos-delay="600">
+            <div class="relative mt-40 lg:mt-12 lg:right-0">
               <img
                 :src="'logo-rpl.png'"
                 alt="Logo"
-                class="relative w-60 sm:w-80 md:w-11/12 z-10 max-w-full mx-auto transition duration-500 transform hover:-translate-y-1 hover:rotate-6 hover:scale-105"
+                class="relative w-80 sm:w-80  z-10 max-w-full mx-auto transition duration-500 transform hover:-translate-y-1 hover:rotate-6 hover:scale-105"
               />
               <div
                 class="transition duration-500 transform hover:-translate-y-1 hover:rotate-3 hover:scale-105 hover:shadow-lg"
               ></div>
               <span
-                class="absolute -top-5 left-1/2 -translate-x-1/2 md:scale-125 w-80 sm:w-11/12"
+                class="absolute -top-10 left-1/2 -translate-x-1/2 md:scale-110 w-[28rem] sm:w-11/12"
               >
               
                 <svg
@@ -58,6 +58,18 @@
           </div>
         </div>
       </div>
+    </div>
+    <div class="fixed lg:-bottom-8 bottom-0 w-full" >
+<svg  viewBox="0 0 1280 142" fill="none" xmlns="http://www.w3.org/2000/svg" data-aos="fade-up" data-aos-delay="800">
+<path d="M0 17.1193L42.6667 32.9836C85.3333 48.8479 170.667 80.5765 256 80.5765C341.333 80.5765 426.667 48.8479 512 27.7285C597.333 6.21257 682.667 -3.70261 768 1.25498C853.333 6.21257 938.667 28.026 1024 32.9836C1109.33 37.9412 1194.67 28.026 1237.33 22.3743L1280 17.1193V141.007H1224.5C1181.83 141.007 1109.33 141.007 1024 141.007C938.667 141.007 853.333 142 768 142C682.667 142 597.333 141.007 512 141.007C426.667 141.007 341.333 141.007 256 141.007C170.667 141.007 88.1667 141.007 45.5 141.007H0V17.1193Z" fill="url(#paint0_linear_16_910)"/>
+<defs>
+<linearGradient id="paint0_linear_16_910" x1="640" y1="0" x2="640" y2="297.902" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF4910"/>
+<stop offset="1" stop-color="#FF7A00"/>
+</linearGradient>
+</defs>
+</svg>
+
     </div>
   </section>
 </template>

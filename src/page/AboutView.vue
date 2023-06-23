@@ -1,8 +1,8 @@
 <template>
   <section class="h-screen bg-slate-100">
-    <div class="container pt-48">
+    <div class="container pt-36">
       <div class="box-border flex flex-wrap md:flex-row">
-        <div class="w-full md:w-1/2 p-4 rounded-3xl">
+        <div class="w-full md:w-1/2 p-4 rounded-3xl"  data-aos="fade-left">
           <div class="w-full self-center px-4 pb-4">
             <h1 class="text-base font-semibold text-dark md:text-xl mt-3">
               Haloo Guys,
@@ -69,11 +69,23 @@
             </div>
           </div>
         </div>
-        <div class="w-full px-4 md:w-1/2">
+        <div class="w-full px-4 md:w-1/2"  data-aos="fade-left">
           <div v-if="isLoading"><MapSekeleton /></div>
           <div v-else><MapComponents /></div>
         </div>
       </div>
+    </div>
+    <div class="fixed lg:-bottom-2 bottom-0 w-full">
+<svg viewBox="0 0 1280 129" fill="none" xmlns="http://www.w3.org/2000/svg" data-aos="fade-up" data-aos-delay="800">
+<path d="M-30.7734 1.45906H12.9932C56.7599 1.45906 144.293 1.45906 231.827 28.1043C319.36 54.3504 406.893 108.24 494.427 97.2623C581.96 86.2849 669.493 12.4365 757.027 1.45906C844.56 -9.51839 932.093 44.3709 1019.63 65.3279C1107.16 86.2849 1194.69 76.3054 1238.46 70.617L1282.23 65.3279V129H1238.46C1194.69 129 1107.16 129 1019.63 129C932.093 129 843.534 129 756.001 129C668.467 129 581.96 129 494.427 129C406.893 129 319.36 129 231.827 129C144.293 129 56.7599 129 12.9932 129H-30.7734V1.45906Z" fill="url(#paint0_linear_16_916)"/>
+<defs>
+<linearGradient id="paint0_linear_16_916" x1="625.727" y1="0" x2="625.727" y2="129" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF4910"/>
+<stop offset="1" stop-color="#FF7A00"/>
+</linearGradient>
+</defs>
+</svg>
+
     </div>
   </section>
 </template>
