@@ -1,6 +1,6 @@
 <template>
   <section class="h-screen bg-slate-100">
-    <div class="container border">
+    <div class="container">
       <div class="box-border flex flex-wrap lg:flex-row pt-28">
         <div class="lg:w-1/2 xl:mt-16 xl:px-4">
           <div
